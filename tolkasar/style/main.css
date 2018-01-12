@@ -1,0 +1,177 @@
+.game-element {
+    border: 1px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.helper-img {
+    margin-top: 10px;
+    position: relative;
+    left: 55px;
+}
+
+#game {
+    margin-top: 5px;
+    text-align: left;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #808080;
+    text-align: center;
+    min-width: 300px;
+}
+
+#start-moving {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.control-element img {
+    width: 20px;
+}
+
+.control-element {
+    margin: 7px 2px;
+    padding: 2px;
+    border: 1px solid #000000;
+    width: 40px;
+    float: left;
+    text-align: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+
+    background-color: #eeeeee;
+    background: -moz-linear-gradient(top, #aaaaaa, #ffffff);
+    /* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(top, #aaaaaa, #ffffff);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #aaaaaa, #ffffff);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #aaaaaa, #ffffff);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(top, #aaaaaa, #ffffff);
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #aaaaaa, #ffffff);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: linear-gradient(top, #aaaaaa, #ffffff);
+    /*opera*/
+    background-image: -o-linear-gradient(top, #aaaaaa, #ffffff);
+    /*IE*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aaaaaa', endColorstr='#ffffff');
+}
+
+.smallButton {
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #000000;
+    width: 40px;
+    text-align: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    background: -moz-linear-gradient(top, #aaaaaa, #ffffff);
+    /* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(top, #aaaaaa, #ffffff);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #aaaaaa, #ffffff);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #aaaaaa, #ffffff);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(top, #aaaaaa, #ffffff);
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #aaaaaa, #ffffff);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: linear-gradient(top, #aaaaaa, #ffffff);
+    /*opera*/
+    background-image: -o-linear-gradient(top, #aaaaaa, #ffffff);
+    /*IE*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aaaaaa', endColorstr='#ffffff');
+}
+
+.small-controllers {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#selectedControls {
+    clear: both;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: #aaaaaa;
+    text-align: left;
+    overflow: hidden;
+    height: 50px;
+    min-height: 50px;
+}
+
+#lastSelectedControls {
+    clear: both;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: #666666;
+    text-align: left;
+    overflow: hidden;
+    min-height: 50px;
+    height: 50px;
+}
+
+#selectedControls img {
+    width: 15px;
+    height: 15px;
+}
+
+#lastSelectedControls img {
+    width: 15px;
+    height: 15px;
+}
+
+.jqmWindow {
+    display: none;
+    width: 290px;
+    height: 290px;
+    text-align: left;
+    background: url('../assets/scroll3Blur.png') no-repeat;
+    color: #000000;
+    border: none;
+}
+
+.jqmClose {
+    text-align: center;
+}
+
+.jqmNext {
+    text-align: center;
+}
+
+#popupContent {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+
+.tips {
+    font-style: italic;
+}

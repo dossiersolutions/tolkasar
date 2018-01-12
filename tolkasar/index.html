@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="../lib/crafty.js"></script>
+    <script src="../lib/jquery-1.8.1.min.js"></script>
+    <script src="../lib/jqModal.js"></script>
+    <link rel="stylesheet" type="text/css" href="../lib/jqModal.css">
+    <script src="src/things.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/components.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/scenes.js"></script>
+    <script src="src/levels.js"></script>
+    <script src="src/levelGenerator.js"></script>
+    <script src="src/diamond-isometric.js"></script>
+    <script src="src/controls.js"></script>
+    <script src="src/monsters.js"></script>
+    <script src="src/things.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+<div id="cr-stage" class="game-element"></div>
+
+<div id="game">
+    <div id="controlButtons">
+        <div>
+            <div id="left-arrow" class="control-element">
+                <img src="assets/arrow_left2_dark.png"/></br>
+                turn
+            </div>
+            <div id="up-arrow" class="control-element">
+                <img src="assets/arrow_up2_blur_dark.png"/></br>
+                go
+            </div>
+            <div id="right-arrow" class="control-element">
+                <img src="assets/arrow_right2_dark.png"/></br>
+                turn
+            </div>
+
+            <div id="remove-last" class="control-element">
+                <img src="assets/crossBlur.png"/></br>
+                Rem
+            </div>
+
+            <div id="start-moving" class="control-element">
+                <img src="assets/start_blur_dark.png"/></br>
+                Start
+            </div>
+
+        </div>
+
+        <div class="lower-control-wrapper">
+
+            <div class="control-element">
+                <div id="remove-all">R.all</div>
+            </div>
+
+            <div class="control-element">
+                <div id="copy-last">Copy</div>
+            </div>
+
+            <div class="control-element">
+                <div id="zoomIn"> + </div>
+            </div>
+
+            <div class="control-element">
+                <div id="zoomOut"> - </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="selectedControls">
+    &nbsp;
+</div>
+<div id="lastSelectedControls">
+    &nbsp;
+</div>
+
+<div id="popupDiv" class="popupDiv jqmWindow">
+    <div id="popupContent">&nbsp;</div>
+    <br/>
+    <div id="popupClose" class="jqmClose">Lukk</div>
+    <div id="popupNext" class="jqmNext">Neste</div>
+</div>
+</body>
+</html>
